@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио OOLys</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <h1 class="header-title">Олег Лысенко</h1>
+      <p class="header-subtitle">
+        фриланcер, создание и верстка сайтов, Junior Frontend
+      </p>
+      <a href="#portfolio" class="header-arrow">
+        <img src="./Image/header/chevron-down.svg" alt="Arrow" />
+      </a>
+    </header>
+    <main class="portfolio" id="portfolio">
+      <article class="conteiner">
+        <p class="portfolio-text">
+          Доброго времени суток. Меня зовут Олег и мне 43 года. Живу в Украине.
+          Интенсивно и постоянно изучаю HTML, CSS, SCSS, JS. Прослушал курс
+          Frontend, на платформах от 0 до 1, ВедКадеми, Genius Space. Начинаю
+          свою карьеру во фрилансе.
+        </p>
+        <h2 class="portfolio-title">Мои достижения</h2>
+        <div class="portfolio-progress">
+          <h3 class="portfolio-progress-text">HTML</h3>
+          <div class="progress" style="--progress: 95%"></div>
+          <h3 class="portfolio-progress-text">CSS</h3>
+          <div class="progress" style="--progress: 85%"></div>
+          <h3 class="portfolio-progress-text">JS</h3>
+          <div class="progress" style="--progress: 70%"></div>
+          <h3 class="portfolio-progress-text">БЭМ</h3>
+          <div class="progress" style="--progress: 95%"></div>
+        </div>
+        <h2 class="portfolio-header">Портфолио</h2>
+        <!-- флекс бокс для содержимого портфолио -->
+        <div class="portfolio-cards-wrapper">
+          <div class="card">
+            <a href=" https://oleglys.github.io/Mini-food/" class="card-link">
+              <img
+                class="card-img"
+                src="./Image/Portfolio/caffe.png"
+                alt="Многостраничный сайт"
+              />
+              <h3 class="card-title">Сайт-визитка кафе</h3>
+              <p>Адаптивный сайт с меню городского кафе</p>
+            </a>
+          </div>
+          <div class="card">
+            <a
+              href="https://oleglys.github.io/Transport-company/"
+              class="card-link"
+            >
+              <img
+                class="card-img"
+                src="./Image/Portfolio/trans.png"
+                alt="Многостраничный сайт"
+              />
+              <h3 class="card-title">Адаптивный лендинг</h3>
+              <p>Сайт транспортной компании</p>
+            </a>
+          </div>
+          <div class="card">
+            <a href="https://oleglys.github.io/Sup/" class="card-link">
+              <img
+                class="card-img"
+                src="./Image/Portfolio/Sub.png"
+                alt="Многостраничный сайт"
+              />
+              <h3 class="card-title">Интернет магазин</h3>
+              <p>Адаптивный сайт продавца SUP досок.</p>
+            </a>
+          </div>
+          <div class="card">
+            <a href="https://oleglys.github.io/BarberShop/" class="card-link">
+              <img
+                class="card-img"
+                src="./Image/Portfolio/barber.png"
+                alt="Многостраничный сайт"
+              />
+              <h3 class="card-title">Barber shop</h3>
+              <p>Авторский сайт барбершопа</p>
+            </a>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <div class="conteiner">
+        <div class="footer-row">
+          <div class="footer-copyright footer-col">
+            <div class="footer-copyright-name">&copy Олег Лысенко</div>
+            <p>HTML верстка и разработка сайтов</p>
+          </div>
+          <div class="footer-icons footer-col">
+            <p>Мои профили в социальных сетях:</p>
+            <div class="footer-icons-row">
+              <a href="https://telegram.me/OO_Lys" target="_blank">
+                <img src="./Image/icons/tel.png" alt="linkedin" />
+              </a>
+              <a href="https://github.com/OlegLys" target="_blank">
+                <img src="./Image/icons/github-50png.png" alt="githab" />
+              </a>
+            </div>
+          </div>
+          <div class="footer-contacts">
+            <a href="mailto:ol151180@gmail.com" class="footer-botton">
+              Связаться со мной
+            </a>
+            <p>
+              Напишите мне, чтобы заказать или узнать стоимость верстки вашего
+              проекта
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Библиотеки и плагины -->
+    <script src="./links/jjqerry/jquery-3.7.1.min.js"></script>
+    <!-- <script src="./links/vide/jquery.vide.min.js"></script> -->
+    <!-- Собственные скрипты и вызовы библиотек -->
+    <!-- <script src="./js/main.js"></script> -->
+  </body>
+</html>
